@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+.odd {
+    background-color: salmon;
+    font-family: Verdana, DeJavu Sans, sans-serif;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+.size{
+    font-size: 24px;
+}
+
+#four {
+    font-weight: 900;
+    background-color: lightgreen;
+}
