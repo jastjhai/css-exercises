@@ -4,10 +4,30 @@ body {
   min-height: 100vh;
 }
 
+ul, a {
+  font-size: 24px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  line-height: 48px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer {
@@ -20,10 +40,25 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 8px;
+  height: 300px;
+  width: 200px;
+}
+
+.main-container, .cards-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.cards-container {
+  padding: 48px;
+  flex-wrap: wrap;
 }
